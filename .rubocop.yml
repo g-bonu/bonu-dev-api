@@ -1,0 +1,26 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  NewCops: disable
+
+Layout/LineLength:
+  Max: 180
+  AllowedPatterns:
+    - "^ *#"
+    - '\A#'
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/MethodLength:
+  Max: 40
+
+Metrics/ModuleLength:
+  Max: 200
+
+Style/Documentation:
+  Enabled: false
